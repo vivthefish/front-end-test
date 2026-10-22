@@ -26,8 +26,7 @@ const props = defineProps({
     <!-- TODO: add Tailwind classes to make this a centered, wrapping row with spacing between cards -->
     <div class="max-w-6xl">
       <!-- TODO: loop over props.items with a proper key -->
-      <article v-for="item in props.items"
-        :key="item.id" class="w-72 rounded-xl bg-white p-6 shadow-md">
+      <article class="w-72 rounded-xl bg-white p-6 shadow-md">
         <span class="inline-block mb-3 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-700">
           <!-- TODO: category -->
         </span>
